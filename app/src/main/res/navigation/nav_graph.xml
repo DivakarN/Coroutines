@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/termsFragment">
+
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.sysaxiom.coroutines.viewmodelscope.terms.TermsFragment"
+        android:label="Terms"
+        tools:layout="@layout/fragment_terms" />
+
+    <fragment
+        android:id="@+id/relationFragment"
+        android:name="com.sysaxiom.mvvmbasics.ui.navigationview.relation.RelationFragment"
+        android:label="Relation"
+        tools:layout="@layout/fragment_relation" />
+
+</navigation>
